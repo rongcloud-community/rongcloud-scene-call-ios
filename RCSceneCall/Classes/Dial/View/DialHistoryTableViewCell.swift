@@ -44,7 +44,7 @@ class DialHistoryTableViewCell: UITableViewCell, Reusable {
         instance.textColor = UIColor(hexString: "#BBC0CA")
         return instance
     }()
-    private lazy var separatorline: UIView = {
+    private lazy var sepLine: UIView = {
         let instance = UIView()
         instance.backgroundColor = UIColor(hexString: "#E3E5E6")
         return instance
@@ -67,7 +67,7 @@ class DialHistoryTableViewCell: UITableViewCell, Reusable {
         contentView.addSubview(phoneLabel)
         contentView.addSubview(weekLabel)
         contentView.addSubview(contactImageView)
-        contentView.addSubview(separatorline)
+        contentView.addSubview(sepLine)
         
         bgImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -95,7 +95,7 @@ class DialHistoryTableViewCell: UITableViewCell, Reusable {
             make.size.equalTo(CGSize(width: 70, height: 29))
         }
         
-        separatorline.snp.makeConstraints { make in
+        sepLine.snp.makeConstraints { make in
             make.left.equalTo(avatarImageView.snp.right)
             make.right.equalToSuperview()
             make.bottom.equalToSuperview()
@@ -104,12 +104,12 @@ class DialHistoryTableViewCell: UITableViewCell, Reusable {
     }
     
     public func updateCell(history: DialHistory) {
-        separatorline.isHidden = false
+        sepLine.isHidden = false
         bgImageView.isHidden = true
         contactImageView.isHidden = true
         phoneLabel.text = history.number
         avatarImageView.image = RCSCAsset.Images.defaultAvatar.image
-        UserInfoDownloaded.shared.fetchUserInfo(userId: history.userId) { [weak self] user in
+        RCSceneUserManager.shared.fetchUserInfo(userId: history.userId) { [weak self] user in
             guard let self = self, let url = URL(string: user.portraitUrl) else { return }
             self.avatarImageView.kf.setImage(with: url, placeholder: RCSCAsset.Images.defaultAvatar.image)
         }

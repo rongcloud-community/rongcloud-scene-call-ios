@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   
   # 1 - Info
   s.name             = 'RCSceneCall'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Scene Call'
   s.description      = "Scene Call module"
   s.homepage         = 'https://github.com/rongcloud'
@@ -25,16 +25,10 @@ Pod::Spec.new do |s|
   s.source_files = 'RCSceneCall/Classes/**/*'
   
   # 5 - dependency
-  s.dependency 'SnapKit'
-  s.dependency 'Reusable'
   s.dependency 'ReactorKit'
-  s.dependency 'Kingfisher'
   s.dependency 'RxDataSources'
-  s.dependency 'SVProgressHUD'
   
-  s.dependency 'RCSceneRoom'
+  s.dependency 'RCSceneRoom', '>= 0.0.2.3'
   s.dependency 'RCSceneCallKit'
-  s.dependency 'RCSceneService'
-  s.dependency 'RCSceneMessage'
   
 end
