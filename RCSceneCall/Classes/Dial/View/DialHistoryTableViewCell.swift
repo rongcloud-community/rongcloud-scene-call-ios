@@ -8,7 +8,6 @@
 import UIKit
 import Reusable
 import Kingfisher
-import RCSceneService
 
 class DialHistoryTableViewCell: UITableViewCell, Reusable {
     private lazy var avatarImageView: UIImageView = {

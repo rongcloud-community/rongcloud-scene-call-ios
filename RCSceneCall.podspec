@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   
   # 1 - Info
   s.name             = 'RCSceneCall'
-  s.version          = '0.0.2'
+  s.version          = '0.0.2.2'
   s.summary          = 'Scene Call'
   s.description      = "Scene Call module"
   s.homepage         = 'https://github.com/rongcloud'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   # 2 - Version
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
+  s.static_framework = true
   
   # 3 - config
   s.pod_target_xcconfig = {
@@ -28,7 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'ReactorKit'
   s.dependency 'RxDataSources'
   
-  s.dependency 'RCSceneRoom', '>= 0.0.2.3'
+  s.dependency 'RCSceneRoom/RCSceneRoom', '~> 0.0.2.4'
   s.dependency 'RCSceneCallKit'
   
 end

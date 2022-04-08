@@ -7,7 +7,6 @@
 
 import UIKit
 import Reusable
-import RCSceneFoundation
 import SnapKit
 
 class DialCollectionViewCell: UICollectionViewCell, Reusable {

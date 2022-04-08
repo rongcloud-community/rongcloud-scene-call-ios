@@ -6,8 +6,6 @@
 //
 
 import Foundation
-import RCSceneService
-import RCSceneFoundation
 import Moya
 
 let callService = CallService()

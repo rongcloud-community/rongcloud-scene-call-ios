@@ -12,9 +12,9 @@ PODS:
     - FCFileManager
     - SSZipArchive
     - YYModel
-  - RCSceneCall (0.0.1):
+  - RCSceneCall (0.0.2):
     - RCSceneCallKit
-    - RCSceneRoom (>= 0.0.2.3)
+    - RCSceneRoom/RCSceneRoom (~> 0.0.2.4)
     - ReactorKit
     - RxDataSources
   - RCSceneCallKit (0.0.1):
@@ -24,22 +24,23 @@ PODS:
     - Masonry
     - RCCoreKit
     - YYModel
-  - RCSceneFoundation (0.0.2):
+  - RCSceneRoom/RCSceneFoundation (0.0.2.4):
     - SwiftyBeaver
-  - RCSceneMessage (0.0.1):
+  - RCSceneRoom/RCSceneMessage (0.0.2.4):
     - RongCloudIM/IMLib
-  - RCSceneRoom (0.0.2.3):
+  - RCSceneRoom/RCSceneRoom (0.0.2.4):
     - Kingfisher
     - RCSceneChatroomKit
-    - RCSceneMessage
-    - RCSceneService (>= 0.0.2)
+    - RCSceneRoom/RCSceneFoundation
+    - RCSceneRoom/RCSceneMessage
+    - RCSceneRoom/RCSceneService
     - Reusable
     - RongCloudIM/IMKit
     - SnapKit
     - SVProgressHUD
-  - RCSceneService (0.0.2):
+  - RCSceneRoom/RCSceneService (0.0.2.4):
     - Moya
-    - RCSceneFoundation (>= 0.0.2)
+    - RCSceneRoom/RCSceneFoundation
     - ReachabilitySwift
   - ReachabilitySwift (5.0.0)
   - ReactorKit (3.2.0):
@@ -105,10 +106,7 @@ SPEC REPOS:
     - RCCoreKit
     - RCSceneCallKit
     - RCSceneChatroomKit
-    - RCSceneFoundation
-    - RCSceneMessage
     - RCSceneRoom
-    - RCSceneService
     - ReachabilitySwift
     - ReactorKit
     - Reusable
@@ -137,13 +135,10 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RCCoreKit: 3f143441ac62880b454cca9066f526a27c45d4ce
-  RCSceneCall: fb94a4996ec114b7fbf9b449ad4382e7f4690025
+  RCSceneCall: 3647c867c0c66e481c39af5d55b570b49510497e
   RCSceneCallKit: 71ce014dbd49d71ea7806cf65e0e0de2b5dfadf4
   RCSceneChatroomKit: 5fa306001c88bc075365a3ed8a76776e151670f2
-  RCSceneFoundation: 6d91dda21fe9cc4aab6718dd6940a7e29e028955
-  RCSceneMessage: 926880788dcb19bf49c9631e82e1e8abc2957397
-  RCSceneRoom: 8357c40968eb7a1bd3409c2a507e1896a721521e
-  RCSceneService: 8810bb3c043162e0eca81a13bddb95e0fb01ca03
+  RCSceneRoom: d68dda0901d5436aceb21258b42b549e0ac28db3
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   ReactorKit: e8b11d6b9c415405f381669b095c154a05b59eca
   Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
