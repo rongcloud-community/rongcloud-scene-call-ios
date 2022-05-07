@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		204A53792E20F27481E9B81B /* Pods_RCSceneExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7DCF12300E77E93E6BAE0A /* Pods_RCSceneExample.framework */; };
+		D36B31F328250F1E00DADDF6 /* AppConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B31F128250F1E00DADDF6 /* AppConfigs.swift */; };
+		D36B31F428250F1E00DADDF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B31F228250F1E00DADDF6 /* LoginViewController.swift */; };
+		D36B31F728250FF200DADDF6 /* RCSceneCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B31F628250FF200DADDF6 /* RCSceneCallService.swift */; };
 		D735B24027E601F900EF74B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735B23F27E601F900EF74B3 /* AppDelegate.swift */; };
-		D735B24227E601F900EF74B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735B24127E601F900EF74B3 /* SceneDelegate.swift */; };
 		D735B24427E601F900EF74B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735B24327E601F900EF74B3 /* ViewController.swift */; };
 		D735B24727E601F900EF74B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D735B24527E601F900EF74B3 /* Main.storyboard */; };
 		D735B24927E601FE00EF74B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D735B24827E601FE00EF74B3 /* Assets.xcassets */; };
@@ -18,9 +20,11 @@
 
 /* Begin PBXFileReference section */
 		A54DD5B5F9047D944C9E039C /* Pods-RCSceneExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCSceneExample.release.xcconfig"; path = "Target Support Files/Pods-RCSceneExample/Pods-RCSceneExample.release.xcconfig"; sourceTree = "<group>"; };
+		D36B31F128250F1E00DADDF6 /* AppConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigs.swift; sourceTree = "<group>"; };
+		D36B31F228250F1E00DADDF6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D36B31F628250FF200DADDF6 /* RCSceneCallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCSceneCallService.swift; sourceTree = "<group>"; };
 		D735B23C27E601F900EF74B3 /* RCSceneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCSceneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D735B23F27E601F900EF74B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D735B24127E601F900EF74B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D735B24327E601F900EF74B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D735B24627E601F900EF74B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D735B24827E601FE00EF74B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D36B31F528250FF200DADDF6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D36B31F628250FF200DADDF6 /* RCSceneCallService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		D735B23327E601F900EF74B3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +92,10 @@
 		D735B23E27E601F900EF74B3 /* RCSceneExample */ = {
 			isa = PBXGroup;
 			children = (
+				D36B31F528250FF200DADDF6 /* Service */,
+				D36B31F128250F1E00DADDF6 /* AppConfigs.swift */,
+				D36B31F228250F1E00DADDF6 /* LoginViewController.swift */,
 				D735B23F27E601F900EF74B3 /* AppDelegate.swift */,
-				D735B24127E601F900EF74B3 /* SceneDelegate.swift */,
 				D735B24327E601F900EF74B3 /* ViewController.swift */,
 				D735B24527E601F900EF74B3 /* Main.storyboard */,
 				D735B24827E601FE00EF74B3 /* Assets.xcassets */,
@@ -225,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D735B24427E601F900EF74B3 /* ViewController.swift in Sources */,
+				D36B31F328250F1E00DADDF6 /* AppConfigs.swift in Sources */,
 				D735B24027E601F900EF74B3 /* AppDelegate.swift in Sources */,
-				D735B24227E601F900EF74B3 /* SceneDelegate.swift in Sources */,
+				D36B31F428250F1E00DADDF6 /* LoginViewController.swift in Sources */,
+				D36B31F728250FF200DADDF6 /* RCSceneCallService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +390,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69G8BQ9KQW;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RCSceneExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "通话SwiftDemo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -404,12 +422,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69G8BQ9KQW;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RCSceneExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "通话SwiftDemo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

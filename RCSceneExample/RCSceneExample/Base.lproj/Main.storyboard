@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fau-CS-VFr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="1lD-do-CTj">
+            <objects>
+                <navigationController id="Fau-CS-VFr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="u5J-CA-E8G">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3NV-bf-tfE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hF6-QO-PW7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-716" y="-156"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -33,10 +49,54 @@
                             <constraint firstItem="vw9-RE-8zx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yp1-vE-Hwr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="r4o-eB-bnu"/>
+                    <connections>
+                        <segue destination="qL4-Bv-nZ0" kind="show" identifier="Login" id="QsD-pT-Uya"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93" y="80"/>
+            <point key="canvasLocation" x="28" y="-156"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="9z1-yV-HqJ">
+            <objects>
+                <viewController id="qL4-Bv-nZ0" customClass="LoginViewController" customModule="RCSceneExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fru-e1-9ac">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gr4-Vc-eqV">
+                                <rect key="frame" x="20" y="123" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="login" destination="qL4-Bv-nZ0" eventType="editingDidEndOnExit" id="M9p-c8-dDa"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="m9A-WO-qz8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gr4-Vc-eqV" firstAttribute="top" secondItem="m9A-WO-qz8" secondAttribute="top" constant="35" id="PuQ-LN-lyk"/>
+                            <constraint firstItem="Gr4-Vc-eqV" firstAttribute="leading" secondItem="m9A-WO-qz8" secondAttribute="leading" constant="20" id="igu-1U-b1x"/>
+                            <constraint firstItem="m9A-WO-qz8" firstAttribute="trailing" secondItem="Gr4-Vc-eqV" secondAttribute="trailing" constant="20" id="xLq-y8-RxY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vbh-IC-rKt">
+                        <barButtonItem key="rightBarButtonItem" title="登录" id="Kgd-4t-i3S">
+                            <connections>
+                                <action selector="login" destination="qL4-Bv-nZ0" id="WKE-33-8cJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="phoneTF" destination="Gr4-Vc-eqV" id="RdY-o9-jWR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9JL-fT-PqD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="-156"/>
         </scene>
     </scenes>
     <resources>
