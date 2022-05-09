@@ -8,9 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		204A53792E20F27481E9B81B /* Pods_RCSceneExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7DCF12300E77E93E6BAE0A /* Pods_RCSceneExample.framework */; };
+		4E168CC9E43B82428B97BBBB /* Pods_RCSceneCallExample_Objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231AB0CFC78CF37486C66DAC /* Pods_RCSceneCallExample_Objc.framework */; };
 		D36B31F328250F1E00DADDF6 /* AppConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B31F128250F1E00DADDF6 /* AppConfigs.swift */; };
 		D36B31F428250F1E00DADDF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B31F228250F1E00DADDF6 /* LoginViewController.swift */; };
 		D36B31F728250FF200DADDF6 /* RCSceneCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B31F628250FF200DADDF6 /* RCSceneCallService.swift */; };
+		D3CF187F2828FB5200C2B72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF187E2828FB5200C2B72D /* AppDelegate.m */; };
+		D3CF18852828FB5200C2B72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF18842828FB5200C2B72D /* ViewController.m */; };
+		D3CF18882828FB5200C2B72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CF18862828FB5200C2B72D /* Main.storyboard */; };
+		D3CF188A2828FB5400C2B72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CF18892828FB5400C2B72D /* Assets.xcassets */; };
+		D3CF188D2828FB5400C2B72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CF188B2828FB5400C2B72D /* LaunchScreen.storyboard */; };
+		D3CF18902828FB5400C2B72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF188F2828FB5400C2B72D /* main.m */; };
+		D3CF18962828FD0B00C2B72D /* AppConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF18952828FD0B00C2B72D /* AppConfigs.swift */; };
+		D3CF18982828FE5800C2B72D /* OCCallBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF18972828FE5800C2B72D /* OCCallBridge.swift */; };
+		D3CF189B2828FFDC00C2B72D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF189A2828FFDC00C2B72D /* LoginController.m */; };
 		D735B24027E601F900EF74B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735B23F27E601F900EF74B3 /* AppDelegate.swift */; };
 		D735B24427E601F900EF74B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735B24327E601F900EF74B3 /* ViewController.swift */; };
 		D735B24727E601F900EF74B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D735B24527E601F900EF74B3 /* Main.storyboard */; };
@@ -19,10 +29,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231AB0CFC78CF37486C66DAC /* Pods_RCSceneCallExample_Objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCSceneCallExample_Objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5626AD833D16C7B6C3882046 /* Pods-RCSceneCallExample-Objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCSceneCallExample-Objc.release.xcconfig"; path = "Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc.release.xcconfig"; sourceTree = "<group>"; };
 		A54DD5B5F9047D944C9E039C /* Pods-RCSceneExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCSceneExample.release.xcconfig"; path = "Target Support Files/Pods-RCSceneExample/Pods-RCSceneExample.release.xcconfig"; sourceTree = "<group>"; };
 		D36B31F128250F1E00DADDF6 /* AppConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigs.swift; sourceTree = "<group>"; };
 		D36B31F228250F1E00DADDF6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D36B31F628250FF200DADDF6 /* RCSceneCallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCSceneCallService.swift; sourceTree = "<group>"; };
+		D3CF187B2828FB5200C2B72D /* RCSceneCallExample-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RCSceneCallExample-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF187D2828FB5200C2B72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3CF187E2828FB5200C2B72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3CF18832828FB5200C2B72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3CF18842828FB5200C2B72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3CF18872828FB5200C2B72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CF18892828FB5400C2B72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CF188C2828FB5400C2B72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3CF188E2828FB5400C2B72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CF188F2828FB5400C2B72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CF18942828FD0A00C2B72D /* RCSceneCallExample-Objc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCSceneCallExample-Objc-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3CF18952828FD0B00C2B72D /* AppConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigs.swift; sourceTree = "<group>"; };
+		D3CF18972828FE5800C2B72D /* OCCallBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCCallBridge.swift; sourceTree = "<group>"; };
+		D3CF18992828FFDC00C2B72D /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		D3CF189A2828FFDC00C2B72D /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		D735B23C27E601F900EF74B3 /* RCSceneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCSceneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D735B23F27E601F900EF74B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D735B24327E601F900EF74B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,10 +58,19 @@
 		D735B24B27E601FE00EF74B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D735B24D27E601FE00EF74B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D845C46C187A6927390C9749 /* Pods-RCSceneExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCSceneExample.debug.xcconfig"; path = "Target Support Files/Pods-RCSceneExample/Pods-RCSceneExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D8CBEBFBB23994597FBC929C /* Pods-RCSceneCallExample-Objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCSceneCallExample-Objc.debug.xcconfig"; path = "Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7DCF12300E77E93E6BAE0A /* Pods_RCSceneExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCSceneExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D3CF18782828FB5200C2B72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E168CC9E43B82428B97BBBB /* Pods_RCSceneCallExample_Objc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D735B23927E601F900EF74B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				FF7DCF12300E77E93E6BAE0A /* Pods_RCSceneExample.framework */,
+				231AB0CFC78CF37486C66DAC /* Pods_RCSceneCallExample_Objc.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -59,6 +96,8 @@
 			children = (
 				D845C46C187A6927390C9749 /* Pods-RCSceneExample.debug.xcconfig */,
 				A54DD5B5F9047D944C9E039C /* Pods-RCSceneExample.release.xcconfig */,
+				D8CBEBFBB23994597FBC929C /* Pods-RCSceneCallExample-Objc.debug.xcconfig */,
+				5626AD833D16C7B6C3882046 /* Pods-RCSceneCallExample-Objc.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -71,10 +110,32 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		D3CF187C2828FB5200C2B72D /* RCSceneCallExample-Objc */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF18952828FD0B00C2B72D /* AppConfigs.swift */,
+				D3CF18972828FE5800C2B72D /* OCCallBridge.swift */,
+				D3CF187D2828FB5200C2B72D /* AppDelegate.h */,
+				D3CF187E2828FB5200C2B72D /* AppDelegate.m */,
+				D3CF18992828FFDC00C2B72D /* LoginController.h */,
+				D3CF189A2828FFDC00C2B72D /* LoginController.m */,
+				D3CF18832828FB5200C2B72D /* ViewController.h */,
+				D3CF18842828FB5200C2B72D /* ViewController.m */,
+				D3CF18862828FB5200C2B72D /* Main.storyboard */,
+				D3CF18892828FB5400C2B72D /* Assets.xcassets */,
+				D3CF188B2828FB5400C2B72D /* LaunchScreen.storyboard */,
+				D3CF188E2828FB5400C2B72D /* Info.plist */,
+				D3CF188F2828FB5400C2B72D /* main.m */,
+				D3CF18942828FD0A00C2B72D /* RCSceneCallExample-Objc-Bridging-Header.h */,
+			);
+			path = "RCSceneCallExample-Objc";
+			sourceTree = "<group>";
+		};
 		D735B23327E601F900EF74B3 = {
 			isa = PBXGroup;
 			children = (
 				D735B23E27E601F900EF74B3 /* RCSceneExample */,
+				D3CF187C2828FB5200C2B72D /* RCSceneCallExample-Objc */,
 				D735B23D27E601F900EF74B3 /* Products */,
 				7C176BCBABE379868997AD28 /* Pods */,
 				26977BA3D6225576864AD9AC /* Frameworks */,
@@ -85,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				D735B23C27E601F900EF74B3 /* RCSceneExample.app */,
+				D3CF187B2828FB5200C2B72D /* RCSceneCallExample-Objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +170,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D3CF187A2828FB5200C2B72D /* RCSceneCallExample-Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CF18932828FB5400C2B72D /* Build configuration list for PBXNativeTarget "RCSceneCallExample-Objc" */;
+			buildPhases = (
+				3114C37D84C8033865474221 /* [CP] Check Pods Manifest.lock */,
+				D3CF18772828FB5200C2B72D /* Sources */,
+				D3CF18782828FB5200C2B72D /* Frameworks */,
+				D3CF18792828FB5200C2B72D /* Resources */,
+				4054ECBDDF9398C9EAFD3999 /* [CP] Embed Pods Frameworks */,
+				A6DC130898CE3A2CFB59B815 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RCSceneCallExample-Objc";
+			productName = "RCSceneCallExample-Objc";
+			productReference = D3CF187B2828FB5200C2B72D /* RCSceneCallExample-Objc.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D735B23B27E601F900EF74B3 /* RCSceneExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D735B25027E601FE00EF74B3 /* Build configuration list for PBXNativeTarget "RCSceneExample" */;
@@ -138,6 +220,10 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					D3CF187A2828FB5200C2B72D = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
 					D735B23B27E601F900EF74B3 = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -157,11 +243,22 @@
 			projectRoot = "";
 			targets = (
 				D735B23B27E601F900EF74B3 /* RCSceneExample */,
+				D3CF187A2828FB5200C2B72D /* RCSceneCallExample-Objc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D3CF18792828FB5200C2B72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF188D2828FB5400C2B72D /* LaunchScreen.storyboard in Resources */,
+				D3CF188A2828FB5400C2B72D /* Assets.xcassets in Resources */,
+				D3CF18882828FB5200C2B72D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D735B23A27E601F900EF74B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +306,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCSceneExample/Pods-RCSceneExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3114C37D84C8033865474221 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCSceneCallExample-Objc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4054ECBDDF9398C9EAFD3999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		45F4CB3716DE8E7C0B7DEE3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,9 +367,39 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A6DC130898CE3A2CFB59B815 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCSceneCallExample-Objc/Pods-RCSceneCallExample-Objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D3CF18772828FB5200C2B72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF18852828FB5200C2B72D /* ViewController.m in Sources */,
+				D3CF18982828FE5800C2B72D /* OCCallBridge.swift in Sources */,
+				D3CF18962828FD0B00C2B72D /* AppConfigs.swift in Sources */,
+				D3CF187F2828FB5200C2B72D /* AppDelegate.m in Sources */,
+				D3CF18902828FB5400C2B72D /* main.m in Sources */,
+				D3CF189B2828FFDC00C2B72D /* LoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D735B23827E601F900EF74B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +415,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D3CF18862828FB5200C2B72D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CF18872828FB5200C2B72D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3CF188B2828FB5400C2B72D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CF188C2828FB5400C2B72D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D735B24527E601F900EF74B3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -268,6 +450,79 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D3CF18912828FB5400C2B72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CBEBFBB23994597FBC929C /* Pods-RCSceneCallExample-Objc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RCSceneCallExample-Objc/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "音视频通话OCDemo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许摄像头";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否允许麦克风";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.rcrtc.RCSceneCallExample-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RCSceneCallExample-Objc/RCSceneCallExample-Objc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3CF18922828FB5400C2B72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5626AD833D16C7B6C3882046 /* Pods-RCSceneCallExample-Objc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RCSceneCallExample-Objc/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "音视频通话OCDemo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许摄像头";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否允许麦克风";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.rcrtc.RCSceneCallExample-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RCSceneCallExample-Objc/RCSceneCallExample-Objc-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D735B24E27E601FE00EF74B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -372,7 +627,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -393,7 +648,9 @@
 				DEVELOPMENT_TEAM = 9CVMN4UZK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RCSceneExample/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "通话SwiftDemo";
+				INFOPLIST_KEY_CFBundleDisplayName = "音视频通话SwiftDemo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许摄像头";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否允许麦克风";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -425,7 +682,9 @@
 				DEVELOPMENT_TEAM = 9CVMN4UZK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RCSceneExample/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "通话SwiftDemo";
+				INFOPLIST_KEY_CFBundleDisplayName = "音视频通话SwiftDemo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许摄像头";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否允许麦克风";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,6 +708,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D3CF18932828FB5400C2B72D /* Build configuration list for PBXNativeTarget "RCSceneCallExample-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CF18912828FB5400C2B72D /* Debug */,
+				D3CF18922828FB5400C2B72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D735B23727E601F900EF74B3 /* Build configuration list for PBXProject "RCSceneExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
