@@ -38,7 +38,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SHOW"/>
                                 <connections>
-                                    <action selector="showSettings" destination="BYZ-38-t0r" eventType="touchUpInside" id="f4Z-yE-gNv"/>
+                                    <action selector="show" destination="BYZ-38-t0r" eventType="touchUpInside" id="OnI-LH-HlW"/>
                                 </connections>
                             </button>
                         </subviews>
