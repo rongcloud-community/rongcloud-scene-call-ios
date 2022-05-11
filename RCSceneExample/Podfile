@@ -10,3 +10,14 @@ target 'RCSceneExample' do
   pod 'RCSceneCall', :path => '../'
   
 end
+
+
+target 'RCSceneCallExample-Objc' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for RCSceneExample
+  
+  pod 'RCSceneCall', :path => '../'
+  
+end

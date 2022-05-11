@@ -12,7 +12,7 @@ PODS:
     - FCFileManager
     - SSZipArchive
     - YYModel
-  - RCSceneCall (0.0.2):
+  - RCSceneCall (0.0.2.2):
     - RCSceneCallKit
     - RCSceneRoom/RCSceneRoom (~> 0.0.2.4)
     - ReactorKit
@@ -135,7 +135,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RCCoreKit: 3f143441ac62880b454cca9066f526a27c45d4ce
-  RCSceneCall: 3647c867c0c66e481c39af5d55b570b49510497e
+  RCSceneCall: a2423df9b4105a9ad8984532ca48de61bd2359ba
   RCSceneCallKit: 71ce014dbd49d71ea7806cf65e0e0de2b5dfadf4
   RCSceneChatroomKit: 5fa306001c88bc075365a3ed8a76776e151670f2
   RCSceneRoom: d68dda0901d5436aceb21258b42b549e0ac28db3
@@ -155,6 +155,6 @@ SPEC CHECKSUMS:
   WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e468a771810cd9314e2b28fcd867966ce30c9aee
+PODFILE CHECKSUM: 198f14e9a58e3d556427321a653bed1b50a01b86
 
 COCOAPODS: 1.11.3
