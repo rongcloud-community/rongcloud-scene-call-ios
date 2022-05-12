@@ -9,8 +9,7 @@
 #import "RCSceneCallExample_Objc-Swift.h"
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <RCSceneCall.h>
-#import <RongIMKit/RCIM.h>
-//@import RongIMKit.RCIM;
+#import <RongCloudOpenSource/RCIM.h>
 
 @interface ViewController ()
 

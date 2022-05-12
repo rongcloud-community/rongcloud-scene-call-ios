@@ -9,7 +9,6 @@ import Foundation
 import RCSceneRoom
 import RCSceneCall
 
-
 @objc public protocol LoginBridgeDelegate {
     @objc func loginCompletion(result: String?, error: NSError?);
 }
@@ -28,7 +27,7 @@ import RCSceneCall
                                        platform: "mobile")
         
         loginProvider.request(api) { result in
-            switch result.map(RCNetworkWrapper<User>.self) {
+            switch result.map(RCSceneWrapper<User>.self) {
             case let .success(wrapper):
                 let user = wrapper.data!
                 UserDefaults.standard.set(user: user)

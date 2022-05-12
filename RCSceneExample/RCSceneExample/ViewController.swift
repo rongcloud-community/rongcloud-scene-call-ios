@@ -8,7 +8,6 @@
 import UIKit
 import SVProgressHUD
 import RCSceneRoom
-import RongIMKit
 import RCSceneCall
 
 class ViewController: UIViewController {

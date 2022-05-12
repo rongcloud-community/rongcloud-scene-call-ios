@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   
   # 1 - Info
   s.name             = 'RCSceneCall'
-  s.version          = '0.0.2.2'
+  s.version          = '0.0.3'
   s.summary          = 'Scene Call'
   s.description      = "Scene Call module"
   s.homepage         = 'https://github.com/rongcloud'
