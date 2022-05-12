@@ -29,7 +29,9 @@ Pod::Spec.new do |s|
   s.dependency 'ReactorKit'
   s.dependency 'RxDataSources'
   
-  s.dependency 'RCSceneRoom/RCSceneRoom', '~> 0.0.2.4'
+  s.dependency 'RCSceneRoom/RCSceneRoom'
+  s.dependency 'RCSceneRoom/RCSceneAnalytics'
+  
   s.dependency 'RCSceneCallKit'
   
 end

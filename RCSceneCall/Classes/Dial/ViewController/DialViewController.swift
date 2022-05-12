@@ -92,11 +92,15 @@ public class DialViewController: UIViewController, View {
             self.showDialView(isShow: false)
         }).disposed(by: disposeBag)
         
+        let dialType = type.rawValue
         dialView.rx.dialNumber
             .map {
                 number in
                 Reactor.Action.callNumber(phone: number)
             }
+            .do(onNext: { _ in
+                RCSensorAction.dialClick(dialType).trigger()
+            })
             .bind(to: reactor.action)
             .disposed(by: disposeBag)
         
@@ -108,7 +112,7 @@ public class DialViewController: UIViewController, View {
             .bind(to: reactor.action)
             .disposed(by: disposeBag)
         
-        dialView.rx.inviteCurrentDidTap.debug()
+        dialView.rx.inviteCurrentDidTap
             .subscribe(onNext: {
                 [weak self] value in
                 guard let self = self else { return }

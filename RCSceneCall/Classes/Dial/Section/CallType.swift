@@ -7,9 +7,9 @@
 
 import Foundation
 
-public enum CallType {
-    case audio
-    case video
+public enum CallType: Int {
+    case audio = 0
+    case video = 1
     
     var mediaType: RCCallMediaType {
         switch self {
