@@ -5,12 +5,12 @@
 //  Created by 叶孤城 on 2021/6/29.
 //
 
-import UIKit
-import RxDataSources
-import ReactorKit
-import RxSwift
-import SVProgressHUD
 import MessageUI
+
+import RxSwift
+import ReactorKit
+import RxDataSources
+import SVProgressHUD
 
 public class DialViewController: UIViewController, View {
     public var disposeBag: DisposeBag = DisposeBag()
@@ -34,7 +34,7 @@ public class DialViewController: UIViewController, View {
             return cell
         }
     }()
-    private lazy var emptyView = DialHistoryEmptyView()
+    private lazy var emptyView = DialHistoryEmptyView(type)
     private let dialView = DialKeyboardView()
     public let type: CallType
     

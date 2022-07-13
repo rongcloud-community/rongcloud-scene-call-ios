@@ -18,8 +18,10 @@ class DialHistoryEmptyView: UIView {
         return instance
     }()
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    private let type: CallType
+    init(_ type: CallType) {
+        self.type = type
+        super.init(frame: .zero)
         setupUI()
     }
     
@@ -46,7 +48,7 @@ class DialHistoryEmptyView: UIView {
             make.right.equalToSuperview().offset(-20.resize)
             make.centerY.equalToSuperview()
         }
-        if SceneRoomManager.scene == .audioCall {
+        if type == .audio {
             tipLabel.text = "拨号给已注册用户，发起RTC语音通话"
         } else {
             tipLabel.text = "拨号给已注册用户，发起RTC视频通话"

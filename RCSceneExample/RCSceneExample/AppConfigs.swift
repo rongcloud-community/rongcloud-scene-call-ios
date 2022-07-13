@@ -10,9 +10,7 @@ import RCSceneRoom
 class AppConfigs {
     static func config() {
         configRCKey()
-        configHiFive()
         configBaseURL()
-        configMHBeautyKey()
         configBusinessToken()
     }
     
@@ -22,16 +20,6 @@ class AppConfigs {
     
     static func configBaseURL() {
         Environment.url = URL(string: "https://rcrtc-api.rongcloud.net/")!
-    }
-    
-    static func configMHBeautyKey() {
-        Environment.MHBeautyKey = ""
-    }
-    
-    static func configHiFive() {
-        Environment.hiFiveAppId = "6f78321c38ee4db3bb4dae7e56d464b1"
-        Environment.hiFiveServerCode = "ca41ad68e8054610a2"
-        Environment.hiFiveServerVersion = "V4.1.2"
     }
     
     static func configBusinessToken() {

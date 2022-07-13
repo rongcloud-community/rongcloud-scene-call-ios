@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   
   # 1 - Info
   s.name             = 'RCSceneCall'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Scene Call'
   s.description      = "Scene Call module"
   s.homepage         = 'https://github.com/rongcloud'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/rongcloud-community/rongcloud-scene-call-ios.git', :tag => s.version.to_s }
   
   # 2 - Version
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   s.static_framework = true
   
