@@ -1,3 +1,8 @@
+> [!WARNING]
+> ⚠️ **暂停维护说明**
+>
+> 该工程已不再维护，请移步 https://github.com/rongcloud/ios-ui-sdk-set/tree/main/CallKit。
+
 <h1 align="center"> 场景化音视频通话 </h>
 
 <p align="center">
